@@ -7,8 +7,6 @@ import sqlite3 as sq
 from aiogram.types.web_app_info import WebAppInfo
 import config
 
-# groovy
-# "5373745300:AAFy0eQEkvw3l6QeqL-N86Uy36hZslDMkCQ"
 bot = Bot(token=config.TOKEN)
 dp = Dispatcher(bot)
 
